@@ -1,0 +1,86 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    .contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .vertical-line {
+      border-left: 7px solid gray;
+      align-self: stretch;
+      margin: 10 40px;
+    }
+    .contact-info {
+      text-align: center;
+      color: #4A90E2; /* Colore azzurro simile allo screenshot */
+    }
+    .contact-info p {
+      margin-bottom: 0px;
+      font-weight: 500;
+    }
+    .contact-info a {
+      text-decoration: none;
+      color: #4A90E2;
+    }
+  </style>
+</head>
+
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="card" style="width: 80%; margin: auto; margin-top:4%; margin-bottom: 2%; border-radius: 20px; box-shadow: 10px 10px 5px grey;">
+    <img src="/static/car_dealership.png" style="width: 60%; margin: auto; margin-top: 2%; border-radius: 5px;" alt="Dealership lot">
+
+    <div class="contact-row" style="display: flex; flex-direction: row; margin:auto; margin-top:2%; margin-bottom: 2%">
+        <div style="text-align: center;">
+          <img src="/static/contactus.png" style="width: 50%;" alt="Contact Us Icon">
+        </div>
+
+        <div class="vertical-line">
+        </div>
+
+        <div class="contact-info">
+          <p>Contact Customer Service</p>
+          <p><a href="mailto:support@bestcars.com">support@bestcars.com</a></p>
+          
+          <p class="mt-3">Contact our National Advertising team</p>
+          <p><a href="mailto:NationalSales@bestcars.com">NationalSales@bestcars.com</a></p>
+          
+          <p class="mt-3">Contact our Public Relations team</p>
+          <p><a href="mailto:PR@bestcars.com">PR@bestcars.com</a></p>
+          
+          <p class="mt-3">Contact the bestcars.com offices</p>
+          <p>312-611-1111</p>
+          
+          <p class="mt-3">Become a bestcars.com car dealer</p>
+          <p><a href="http://growwithbestcars.com">Visit growwithbestcars.com</a></p>
+        </div>
+    </div>
+  </div>
+    
+</div>
+
+</html>
